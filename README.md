@@ -1,6 +1,6 @@
 # Bank Customer Rewards Dashboard
 
-A Streamlit-powered dashboard for bank customer reward segmentation using K-Means clustering and an elbow-curve strategy.
+A simple business dashboard that segments credit-card customers into reward tiers using K-Means clustering. It helps identify high-value customers for premium rewards and lower-value users for retention offers.
 
 ## Demo Screenshot
 

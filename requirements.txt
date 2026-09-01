@@ -1,0 +1,13 @@
+# Minimum versions (">=") so pip installs the newest wheels that match YOUR Python.
+# Why not exact "==" pins? Exact pins of older releases have no prebuilt wheels for
+# brand-new Python (e.g. 3.14), so pip tries to COMPILE them and fails. Minimum
+# bounds let pip pick a compatible pre-built wheel on any Python 3.9-3.14.
+# For strict, byte-for-byte reproducibility on ONE controlled machine, freeze exact
+# versions into a lockfile instead:   pip freeze > requirements.lock
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.3
+scipy>=1.11
+matplotlib>=3.7
+joblib>=1.3
+streamlit>=1.30
